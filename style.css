@@ -3,10 +3,28 @@ body
     background-image: linear-gradient(to right, purple, rgb(100, 100, 255));
 }
 
-h1 {
-    font-family: Helvetica, Arial, sans-serif; font-weight: lighter;
+.welcomingh
+{
+    font-family: "Cascadia Code Light";
     font-size: 24pt;
     color: black;
     text-align: center;
-  }
-  
+}
+
+@font-face {
+    font-family: "Chinese Rocks RG";
+    src: url(fonts/chinese-rocks-rg.otf);
+}
+
+@font-face {
+    font-family: "Cascadia Code Light";
+    src: url(fonts/CascadiaCode-Light.otf);
+}
+
+a
+{
+    font-family: "Chinese Rocks RG", sans-serif;
+    font-size: 172%;
+    color: burlywood;
+    text-decoration: none;
+}
